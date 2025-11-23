@@ -45,6 +45,7 @@ Guideline Guru makes this process quick and simple — just upload your ad creat
 ## Live Demo
 [**View Project Here**] => https://delightful-queijadas-65872e.netlify.app/
 
+## Demo Video -> https://www.loom.com/share/2643de8131a9429e99c50d6edb40a365
 ---
 
 ## Folder Structure
