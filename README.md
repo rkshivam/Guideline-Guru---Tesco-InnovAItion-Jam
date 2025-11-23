@@ -69,11 +69,11 @@ GuidelineGuru/
 
 ## Developer
 
-** Shivam Tripathi**  
+Shivam Tripathi 
 Fullstack Developer | HUMAN | DSA  
 Built this project as part of Tesco Retail Media InnovAItion Jam 2025.
 
 ---
 
-> ⚡ “Guideline Guru — One-stop AI solution for brand-safe advertising.”
+Guideline Guru — One-stop AI solution for brand-safe advertising.
 
