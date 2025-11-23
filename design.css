@@ -1,0 +1,6 @@
+#infoSection, #resultSection {
+  transition: opacity 0.4s ease-in-out;
+}
+.hidden {
+  opacity: 0;
+}

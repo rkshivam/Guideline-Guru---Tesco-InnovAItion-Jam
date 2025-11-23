@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guideline Guru</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-blue-600 text-white text-center py-5 shadow">
+    <h1 class="text-3xl font-bold">Guideline Guru</h1>
+    <p class="text-sm">AI Creative Compliance Assistant</p>
+  </header>
+  
+
+ <main class="p-6 flex flex-col md:flex-row justify-center items-start gap-8">
+
+  <!-- LEFT SIDE: Upload Section -->
+  <section class="flex flex-col items-center md:items-start bg-white shadow rounded-xl p-6 w-full md:w-1/2">
+    <h2 class="text-xl font-semibold mb-4 text-gray-700">Upload Your Creative</h2>
+
+    <div class="border-2 border-dashed border-gray-400 rounded-xl p-6 text-center w-full">
+      <input type="file" id="imageInput" accept="image/*" class="hidden">
+      <label for="imageInput" class="cursor-pointer text-gray-600">
+        <p>Upload Ad Creative For Industry standards Guidance</p>
+      </label>
+    </div>
+
+    <img id="preview" class="hidden mt-4 w-full h-64 object-contain rounded-xl shadow" />
+
+    <button id="analyzeBtn"
+      class="bg-blue-600 text-white px-6 py-2 mt-6 rounded hover:bg-blue-700 w-full md:w-auto">
+      Analyze
+    </button>
+
+    <p id="loading" class="hidden text-blue-600 mt-4 animate-pulse">Analyzing...</p>
+  </section>
+
+  <!-- RIGHT SIDE: Info / Result -->
+  <section id="rightPanel" class="bg-white p-6 rounded-xl shadow w-full md:w-1/2 transition-all duration-500">
+    <!-- Default Info Section -->
+    <div id="infoSection">
+      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Why Guideline Guru?</h2>
+      <ul class="list-disc list-inside text-gray-600 space-y-2">
+        <li>One-stop solution for ad creative validation</li>
+        <li>Ensures brand consistency and saves review time</li>
+        <li>Gives instant AI-based feedback on uploaded creatives</li>
+        <li>Helps small sellers meet brand standards easily</li>
+        <li>Get 7 Star Analysis only for 17 rupees per month</li>
+      </ul>
+      <p class="text-sm text-gray-500 mt-4">Upload your creative on the left to see live analysis.</p>
+    </div>
+
+    <!-- Hidden Result Section -->
+    <div id="resultSection" class="hidden">
+      <h2 class="text-xl font-semibold text-gray-700 mb-3">Analysis Report</h2>
+      <ul id="feedbackList" class="text-gray-600 space-y-1"></ul>
+      <p id="scoreText" class="text-sm text-gray-500 mt-3 text-right"></p>
+    </div>
+  </section>
+
+</main>
+
+
+  <footer class="text-center text-gray-500 text-sm mt-10 mb-4">
+    Built by Shivam Tripathi for Tesco Retail Media InnovAItion Jam
+  </footer>
+
+  <script src="logic.js"></script>
+</body>
+</html>
