@@ -43,7 +43,7 @@ Guideline Guru makes this process quick and simple — just upload your ad creat
 ---
 
 ## Live Demo
-[**View Project Here**] ()  
+[**View Project Here**] => https://delightful-queijadas-65872e.netlify.app/
 *(replace this link after enabling GitHub Pages)*
 
 ---
