@@ -70,7 +70,7 @@ GuidelineGuru/
 
 ## Developer
 
-Shivam Tripathi 
+Shivam Tripathi | Resume-Link | https://drive.google.com/file/d/1HSy1BWv3y-CJSpCX9DCDMNqY2s_gZe8w/view?usp=sharing
 Fullstack Developer | HUMAN | DSA  
 Built this project as part of Tesco Retail Media InnovAItion Jam 2025.
 
