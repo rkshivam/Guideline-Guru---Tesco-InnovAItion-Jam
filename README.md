@@ -18,7 +18,7 @@ Guideline Guru makes this process quick and simple — just upload your ad creat
 - **HTML5**
 - **Tailwind CSS**
 - **JavaScript (Vanilla JS)**  
-*(Frontend-only prototype — no backend used)*
+ 
 
 ---
 
@@ -71,7 +71,8 @@ GuidelineGuru/
 ## Developer
 
 Shivam Tripathi | Fullstack Developer | HUMAN | DSA | 
-Resume-Link | https://drive.google.com/file/d/1HSy1BWv3y-CJSpCX9DCDMNqY2s_gZe8w/view?usp=sharing
+Drive Resume-Link | https://drive.google.com/file/d/1HSy1BWv3y-CJSpCX9DCDMNqY2s_gZe8w/view?usp=sharing
+Github Public Resume Link | https://github.com/rkshivam/Resume-ShivamTripathi-V4/blob/main/Resume%20Shivam%20Tripathi%20V4.pdf.pdf
 Built this project as part of Tesco Retail Media InnovAItion Jam 2025.
 
 ---
